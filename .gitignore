@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+develop-eggs/
+.installed.cfg
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+.env/
+env/
+*.venv/
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.tmp
+*.temp
+*.log
+docker-compose.override.yml
+
+# Migrations (hidden until stable)
+*/migrations/*.py
+!*/migrations/__init__.py
