@@ -42,5 +42,5 @@ staticfiles/
 docker-compose.override.yml
 
 # Migrations (hidden until stable)
-*/migrations/*.py
-!*/migrations/__init__.py
+# */migrations/*.py
+# !*/migrations/__init__.py
